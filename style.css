@@ -56,19 +56,95 @@ h5{
 }
 
 .M-1 img{
-    width: 100%;
+    width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin: 170px auto;
+
 }
 
+.flex2{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.flex2 p{
+    font-size: 20px;
+    width: 61%;
+    margin-top: 90px;
+}
+
+.flex2 button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: #919191;
+}
+
+
 .flex2 img{
-    width: 400px;
+    width: 600px;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+    margin-top: 100px;
+}
+
+.flex3 p {
+    font-size: 20px;
+    width: 60%;
+    margin-top: 90px;
+    margin-left : 100px;
+}
+
+.flex3 button{
+    margin-left: 100px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: #919191;
 }
 
 .flex3 img{
-    width: 400px;
+    width: 600px;
 }
+
+.flex4{
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+    margin-top: 100px;
+}
+
+.flex4 p{
+    font-size: 20px;
+    width: 61%;
+    margin-top: 90px;
+}
+
+.flex4 button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: #919191;
+}
+
 .flex4 img{
-    width: 400px;
+    width: 600px;
 }
+
+.text1{
+    text-align: center;
+    width: 50%;
+    margin:  auto;
+    font-size: 30px;
+    margin-bottom: 140px;
+}
+
+
+
