@@ -170,11 +170,41 @@ h5{
 
 .flex5 img{
     width: 500px;
-    /* width: 100%; */
 }
 
 .flex5 p{
     width: 100%;
+}
+
+.flex6{
+    text-align: center;
+    width: 50%;
+    margin:  auto;
+    font-size: 30px;
+    margin-bottom: 140px;
+    margin-top: 100px;
+}
+
+.flex6 button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: #919191;
+}
+
+footer{
+    color: #D0D0D0 ;
+    font-size: x-small;
+}
+
+.list-2{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.list-2{
+    line-height: 4em;
 }
 
 
