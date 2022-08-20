@@ -1,0 +1,180 @@
+body{
+    background-color:#000000 ;
+    margin: 10px 60px;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    /* border: 4px solid blue; */
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex1 h1{
+    width: 70%;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.flex1 p{
+    color: #D0D0D0;
+    width: 50%;
+    font-size: 20px;
+}
+
+.button1{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: #919191;
+    
+}
+
+h5{
+    display: flex;
+    flex-direction: row;
+    color: #DCDCDC;
+}
+
+.list-1{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: #DCDCDC;
+}
+
+.M-1 img{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 170px auto;
+
+}
+
+.flex2{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.flex2 p{
+    font-size: 20px;
+    width: 61%;
+    margin-top: 90px;
+}
+
+.flex2 button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: #919191;
+}
+
+
+.flex2 img{
+    width: 600px;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+    margin-top: 100px;
+}
+
+.flex3 p {
+    font-size: 20px;
+    width: 60%;
+    margin-top: 90px;
+    margin-left : 100px;
+}
+
+.flex3 button{
+    margin-left: 100px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: #919191;
+}
+
+.flex3 img{
+    width: 600px;
+}
+
+.flex4{
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+    margin-top: 100px;
+}
+
+.flex4 p{
+    font-size: 20px;
+    width: 61%;
+    margin-top: 90px;
+}
+
+.flex4 button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: #919191;
+}
+
+.flex4 img{
+    width: 600px;
+}
+
+.text1{
+    text-align: center;
+    width: 50%;
+    margin:  auto;
+    font-size: 30px;
+    margin-bottom: 140px;
+}
+
+.text2{
+    text-align: center;
+    width: 50%;
+    margin:  auto;
+    font-size: 30px;
+    margin-top: 140px;
+    margin-bottom: 160px;
+}
+
+.text2 button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: #919191;
+}
+
+.flex5{
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+}
+
+.flex5 img{
+    width: 500px;
+    /* width: 100%; */
+}
+
+.flex5 p{
+    width: 100%;
+}
+
+
