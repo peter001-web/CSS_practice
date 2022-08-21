@@ -99,7 +99,7 @@ h5{
     font-size: 20px;
     width: 60%;
     margin-top: 90px;
-    margin-left : 100px;
+    /* margin-left : 100px; */
 }
 
 .flex3 button{
@@ -205,6 +205,61 @@ footer{
 
 .list-2{
     line-height: 4em;
+}
+
+@media screen and (max-width :768px) {
+    body{
+        width: 100%;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex1 h1{
+        width: 100%;
+    }
+
+    .flex1 p{
+        width: 100%;
+    }
+
+    .text1{
+        width: 100%;
+    }
+
+    .flex2{
+        display:flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .flex3{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .flex3 p{
+        margin-left: 0;
+    }
+
+    .flex3 button{
+        margin-left: 0;
+    }
+
+    .flex4{
+        display:flex;
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+    }
+
+    .text2{
+        width: 80%;
+    }
+
 }
 
 
