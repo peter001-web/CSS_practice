@@ -146,5 +146,21 @@ h5{
     margin-bottom: 140px;
 }
 
+.text2{
+    text-align: center;
+    width: 50%;
+    margin:  auto;
+    font-size: 30px;
+    margin-top: 140px;
+    margin-bottom: 160px;
+}
+
+.text2 button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: #919191;
+}
+
 
 
