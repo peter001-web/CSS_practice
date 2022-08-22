@@ -213,7 +213,7 @@ footer{
     line-height: 4em;
 }
 
-@media screen and (max-width :1000px) {
+@media screen and (max-width :768px) {
     body{
         width: 100%;
     }
@@ -225,6 +225,7 @@ footer{
 
     .flex1 h1{
         width: 100%;
+        font-size: 70px;
     }
 
     .flex1 p{
@@ -269,10 +270,14 @@ footer{
     .M-1 img{
         width: 100%;
     }
+    .flex5{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
-@media screen and (min-width: 360px) {
+/* @media screen and (min-width: 360px) {
     body{
         width: 100%;
     }
@@ -328,10 +333,8 @@ footer{
 
     .M-1 img{
         width: 100%;
-    }
+    } */
 
-}
-    
-}
+
 
 
