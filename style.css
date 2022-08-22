@@ -220,6 +220,14 @@ footer{
     .flex1 h1{
         width: 100%;
     }
+
+    .flex1 p{
+        width: 100%;
+    }
+
+    .text1{
+        width: 100%;
+    }
 }
 
 
