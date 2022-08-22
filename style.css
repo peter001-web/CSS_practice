@@ -207,4 +207,19 @@ footer{
     line-height: 4em;
 }
 
+@media screen and (max-width :768px) {
+    body{
+        width: 100%;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex1 h1{
+        width: 100%;
+    }
+}
+
 
