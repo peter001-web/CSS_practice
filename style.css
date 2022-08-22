@@ -25,13 +25,14 @@ header{
 .flex1 h1{
     width: 70%;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 90px;
 }
 
 .flex1 p{
     color: #D0D0D0;
     width: 50%;
     font-size: 20px;
+    /* margin: -10px; */
 }
 
 .button1{
@@ -56,7 +57,7 @@ h5{
 }
 
 .M-1 img{
-    width: 70%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -93,13 +94,14 @@ h5{
     flex-direction: row;
     gap: 170px;
     margin-top: 100px;
+    width: 100%;
 }
 
 .flex3 p {
     font-size: 20px;
     width: 60%;
     margin-top: 90px;
-    /* margin-left : 100px; */
+    margin-left : 100px;
 }
 
 .flex3 button{
@@ -108,6 +110,7 @@ h5{
     border-radius: 20px;
     background-color: white;
     color: #919191;
+    
 }
 
 .flex3 img{
@@ -165,11 +168,12 @@ h5{
 .flex5{
     display: flex;
     flex-direction: row;
-    gap: 190px;
+    gap: 50px;
+    width: 100%;
 }
 
 .flex5 img{
-    width: 500px;
+    width: 570px;
 }
 
 .flex5 p{
@@ -203,11 +207,13 @@ footer{
     gap: 100px;
 }
 
+
+
 .list-2{
     line-height: 4em;
 }
 
-@media screen and (max-width :768px) {
+@media screen and (max-width :1000px) {
     body{
         width: 100%;
     }
@@ -264,6 +270,68 @@ footer{
         width: 100%;
     }
 
+}
+
+@media screen and (min-width: 360px) {
+    body{
+        width: 100%;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+    }
+
+    .flex1 h1{
+        width: 100%;
+    }
+
+    .flex1 p{
+        width: 100%;
+    }
+
+    .text1{
+        width: 100%;
+    }
+
+    .flex2{
+        display:flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .flex3{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .flex3 p{
+        margin-left: 0;
+    }
+
+    .flex3 button{
+        margin-left: 0;
+    }
+
+    .flex4{
+        display:flex;
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+    }
+
+    .text2{
+        width: 80%;
+    }
+
+    .M-1 img{
+        width: 100%;
+    }
+
+}
+    
 }
 
 
