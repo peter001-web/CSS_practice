@@ -223,8 +223,12 @@ footer{
         flex-direction: column;
     }
 
+    .list-1{
+        gap: 20px;
+    }
+
     .flex1 h1{
-        width: 100%;
+        width: 80%;
         font-size: 50px;
     }
 
@@ -268,7 +272,7 @@ footer{
     }
 
     .M-1 img{
-        width: 100%;
+        width: 80%;
     }
     .flex5{
         display: flex;
@@ -276,19 +280,19 @@ footer{
     }
 
     .flex2 img{
-        width: 50%;
+        width: 80%;
     }
 
     .flex3 img{
-        width: 50%;
+        width: 80%;
     }
 
     .flex4 img{
-        width: 50%;
+        width: 80%;
     }
 
     .flex5 img{
-        width: 50%;
+        width: 80%;
     }
 
 }
