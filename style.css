@@ -1,18 +1,18 @@
 body{
     background-color:#000000 ;
-    margin: 10px 60px;
+    width: 100%;
 }
 
 .container{
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
     /* border: 4px solid blue; */
 
 }
 
 header{
+    width: 95%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -43,9 +43,7 @@ header{
     
 }
 
-h5{
-    display: flex;
-    flex-direction: row;
+h5{ width: 25%;
     color: #DCDCDC;
 }
 
@@ -59,8 +57,8 @@ h5{
 .M-1 img{
     width: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     margin: 170px auto;
 
 }
@@ -168,12 +166,15 @@ h5{
 .flex5{
     display: flex;
     flex-direction: row;
-    gap: 50px;
-    width: 100%;
+    gap: 70px;
+    width: 90%;
+    margin-left: 49px;
 }
 
 .flex5 img{
     width: 570px;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex5 p{
@@ -214,8 +215,17 @@ footer{
 }
 
 @media screen and (max-width :1000px) {
+    /* *{
+        border: 1px solid red;
+    } */
     body{
         width: 100%;
+    }
+
+    .container{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid blue;
     }
     
     header{
@@ -230,10 +240,19 @@ footer{
     .flex1 h1{
         width: 100%;
         font-size: 30px;
+        text-align: center;
     }
 
     .flex1 p{
         width: 70%;
+        /* text-align: center; */
+        line-height: 1.3em;
+        margin: auto;
+    }
+
+    .button1{
+        margin-top: 15px;
+        margin-left: 50px;
     }
 
     .text1{
@@ -294,6 +313,11 @@ footer{
 
     .flex5 img{
         width: 80%;
+    }
+
+    .list-2{
+        gap: 30px;
+        line-height: 2em;
     }
 
 }
