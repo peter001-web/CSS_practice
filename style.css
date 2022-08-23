@@ -89,7 +89,7 @@ h5{ width: 25%;
 
 .flex3{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     gap: 170px;
     margin-top: 100px;
     width: 100%;
@@ -225,7 +225,6 @@ footer{
     .container{
         width: 100%;
         padding: 10px;
-        border: 1px solid blue;
     }
     
     header{
@@ -255,6 +254,10 @@ footer{
         margin-left: 50px;
     }
 
+    .flex2 button{
+        margin-left: 50px;
+    }
+
     .text1{
         width: 80%;
         font-size: 20px;
@@ -268,16 +271,17 @@ footer{
 
     .flex3{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 0;
     }
 
     .flex3 p{
         margin-left: 0;
+        margin: auto;
     }
 
     .flex3 button{
-        margin-left: 0;
+        margin-left: 50px;
     }
 
     .flex4{
@@ -285,6 +289,9 @@ footer{
         flex-direction: column;
         gap: 0px;
         width: 100%;
+    }
+    .flex4 button{
+        margin-left: 50px;
     }
 
     .text2{
