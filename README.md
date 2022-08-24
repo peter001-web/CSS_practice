@@ -2,8 +2,10 @@
 
 A Build|Grow|Serve program, created to support and empower Black and under represented communities.
 
+ ![demo](./Screenshot%20(18).png)
+
 ## Demo
- [demo]()
+[Click here to see project live](https://peter001-web.github.io/CSS_practice/)
 
  ## Built with
 * HTML
