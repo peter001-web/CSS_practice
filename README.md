@@ -34,7 +34,7 @@ $ cd Assignment-2
   **👤Tomiwa Bakare**
 
 * GitHub: [@peter001-web](https://github.com/peter001-web)
-* Twitter: [@Tomiwa Bakere](https://twitter.com/home)
+* Twitter: [@Tomiwa Bakare](https://twitter.com/home)
 
 ## Show your support
 
